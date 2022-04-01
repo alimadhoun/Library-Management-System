@@ -1,4 +1,4 @@
-  class User extends Node implements returner {
+  class User extends Node implements Informer {
     int id;
     String name;
     String password;

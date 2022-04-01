@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-class linkedList<T extends returner> {
+class LinkedList<T extends Informer> {
      int size = 0;
      Node<T> head;
 

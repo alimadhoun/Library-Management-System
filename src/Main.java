@@ -2,7 +2,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class main {
+public class Main {
     public static User user = null;
 
     public static void main(String[] args){
@@ -34,7 +34,7 @@ public class main {
             }else {
                 System.out.println("Sorry, this user is not found, press enter key to retry.");
                 input.next();
-                main.main(null);
+                Main.main(null);
             }
         }else {
             switch (user.type){

@@ -1,4 +1,4 @@
-public class Book extends Node implements returner {
+public class Book extends Node implements Informer {
     int ISBN;
     String name;
     MyStack<User> borrowingHistory;

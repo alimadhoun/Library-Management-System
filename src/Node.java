@@ -1,4 +1,4 @@
-public class Node<T extends returner> {
+public class Node<T extends Informer> {
 
      T data ;
 

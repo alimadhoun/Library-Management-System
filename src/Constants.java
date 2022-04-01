@@ -3,11 +3,11 @@ public enum Constants {
     EMPLOYEE,
     LIBRARIAN;
 
-    public static linkedList<Book> books;
+    public static LinkedList<Book> books;
     public static UsersArrayList<User> users;
     public static BorrowingQueu borrowingQueu;
     static{
-        books = new linkedList<Book>();
+        books = new LinkedList<Book>();
         users = new UsersArrayList <>();
 
         Book bookCalculus = new Book(1,"Calculus",new MyStack<User>(),true);

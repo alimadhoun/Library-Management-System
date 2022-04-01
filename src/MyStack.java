@@ -1,4 +1,4 @@
-public class MyStack<T extends returner> {
+public class MyStack<T extends Informer> {
     Node<T> head;
     int size =0;
 
